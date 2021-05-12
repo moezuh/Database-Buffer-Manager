@@ -16,21 +16,8 @@ The buffer manager manages a fixed number of pages that are temporarily stored i
 handle more than one buffer pool for each page file simultaneously. Our program implements 4 replacement strategies: FIFO, LRU, LIFO and Clock 
 alongside with storage manager for reading and writing blocks from the disk.
 
-Part(s) covered by Team Members:
---------------------------------
-All the 4 page replacement strategies LRU, LFU, FIFO and Clock are implemented using pair programming and picked up the efficient ones.
-
-Moez Ul Hasan  - initBufferPool, pinPage, forcePage, getNumWriteIO
-Vishnupriya Gadde - shutDownBufferPool, getFrameContents
-Rasagnya Samanthula - forceFlushPool, getDirtyFlags
-Anam Hashmi - unpinPage, getFixCounts
-Balachander Reddy Mareddy - markDirty, getNumReadIO
-
-To visit the implementation of buffer manager:
-https://bitbucket.org/shek21/group7/src/master/assign2/
-
 To know about detailed implementation of storage manager:
-https://bitbucket.org/shek21/group7/src/master/assign1/
+https://github.com/moezuh/Storage_Manager
 
 
 TECHNOLOGIES
