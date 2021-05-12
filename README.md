@@ -17,7 +17,7 @@ handle more than one buffer pool for each page file simultaneously. Our program 
 alongside with storage manager for reading and writing blocks from the disk.
 
 To know about detailed implementation of storage manager:
-https://github.com/moezuh/Storage_Manager
+https://github.com/moezuh/Database_Storage_Manager
 
 
 TECHNOLOGIES
